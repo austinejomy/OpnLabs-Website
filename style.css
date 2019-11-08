@@ -35,6 +35,19 @@ p {
 
 @media screen and (min-width:15em) {}
 
+#skip {
+  width: 10%;
+}
+
+#skip {
+  position: fixed;
+  top: -100px;
+}
+
+#skip:focus {
+  top: 20px;
+}
+
 .container {
   margin-top: 1.75em;
   margin-left: 19.375em;
@@ -74,7 +87,7 @@ main {
   font-size: 5em;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
-  padding: 1.75em 0em 0em 0em;
+  padding: .75em 0em 0em 0em;
 }
 
 .strong0 {
@@ -160,9 +173,10 @@ form {
   grid-template-columns: repeat(4, 1fr);
   grid-column: 2/span 10;
   grid-row: 6/span 5;
+  margin: -2.5em 0em 0em 0em;
 }
 
-#picicons {
+.picicons {
   max-width: 100%;
   height: 9.6875em;
 }
